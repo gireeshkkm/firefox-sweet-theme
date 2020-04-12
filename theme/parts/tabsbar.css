@@ -226,10 +226,10 @@ tab[selected]:-moz-window-inactive {
 }
 
 /* Full width tabs */
-.tabbrowser-tab:not([style^="max-width"]):not([pinned]),
+/*.tabbrowser-tab:not([style^="max-width"]):not([pinned]),
 .tabbrowser-tab[style^="max-width: 100px !important;"]:not([pinned]) {
 	max-width: 100% !important;
-}
+} */
 
 .tabbrowser-tab:not([style^="max-width"]):not([pinned]):not([fadein]),
 .tabbrowser-tab[style^="max-width: 100px !important;"]:not([pinned]):not([fadein]) {
